@@ -23,7 +23,7 @@ function foo() {
 	
 }
 
-bar(); //<-- call-sit for 'baz'
+baz(); //<-- call-sit for 'baz'
 
 //Take care when analyzing code to find the actual call-site(form the call-stack),
 // because it's the only thing that matters for 'this'-binding.
